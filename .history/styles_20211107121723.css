@@ -1,0 +1,24 @@
+.bg-1 {
+  /* Yellow */
+  background: #FFE194;
+}
+
+.bg-2 {
+  /* Light */
+  background: #E8F6EF;
+}
+
+.bg-3 {
+  /* medium */
+  background: #B8DFD8;
+}
+
+.bg-4 {
+  /* dark */
+  background: #4C4C6D;
+}
+
+.text-light {
+  /* Light */
+  color: #E8F6EF;
+}

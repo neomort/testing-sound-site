@@ -1,0 +1,152 @@
+.bg-1 {
+  /* Yellow */
+  background: #FFE194;
+}
+
+.bg-2 {
+  /* Light */
+  background: #E8F6EF;
+}
+
+.bg-3 {
+  /* medium */
+  background: #B8DFD8;
+}
+
+.bg-4 {
+  /* dark */
+  background: #4C4C6D;
+}
+
+.text-light {
+  /* Light */
+  color: #E8F6EF;
+}
+
+.text-dark {
+  /* dark */
+  color: #4C4C6D;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  opacity: 70%;
+  transition: 0.3s;
+}
+
+.container img{
+  border-radius: 10px;
+  width: 100%;
+  opacity: 100%;
+  transition: 0.3s;
+}
+
+.container:hover {
+  position: relative;
+  text-align: center;
+  opacity: 100%;
+  transition: 0.3s;
+}
+
+.container:hover .show{
+  opacity: 1;
+}
+
+.show {
+  opacity: 0;
+  transition: 0.3s;
+}
+
+
+.header-text {
+  font-size: 4em;
+  position: relative;
+  text-align: center;
+
+}
+
+.bottom {
+  vertical-align: sub;
+}
+
+.image-3{ 
+width: 20%;
+display: inline-block;
+}
+
+.centered-text {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.centered-text-2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  padding: 10px;
+}
+
+.column-2 {
+  flex: 50%;
+  padding: 10px;
+  align-content: end;
+}
+
+.fill {
+  color: 10000ms ease-in-out infinite color-change;
+}
+
+div[class] {
+  
+  filter:url(#round);
+}
+
+.triangle::before {
+  content:"";
+  display:block;
+  padding-top:86.6%;
+  background:url(https://picsum.photos/id/1061/300/300) center/cover;
+ clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+.poly::before {
+  content:"";
+  display:block;
+  padding-top:86.6%;
+  animation: 10000ms ease-in-out infinite color-change;
+ clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+
+}
+
+@keyframes color-change {
+  0% {
+    background-color: teal;
+  }
+  20% {
+    background-color: gold;
+  }
+  40% {
+    background-color: indianred;
+  }
+  60% {
+    background-color: violet;
+  }
+  80% {
+    background-color: green;
+  }
+  100% {
+    background-color: teal;
+  }
+}
