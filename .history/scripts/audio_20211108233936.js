@@ -59,57 +59,42 @@ star.onclick = function(){
 
   console.log("you clicked the star");
   paris.play();
-  jingle.stop();
-  violet.stop();
-  free.stop();
+
 };
 polygon.onclick = function(){
 
   console.log("you clicked the polygon");
   free.play();
-  jingle.stop();
-  violet.stop();
-  paris.stop();
 };
 triangle.onclick = function(){
 
   console.log("you clicked the triangle");
   violet.play();
-  jingle.stop();
-  paris.stop();
-  free.stop();
 };
 hex.onclick = function(){
 
   console.log("you clicked the hexagon??");
   jingle.play();
-  violet.stop();
-  free.stop();
-  paris.stop();
 };
 star.onmouseenter = function(){
 
   console.log("you hover on star");
   ow.play();
-  
 };
 polygon.onmouseenter = function(){
 
   console.log("you hover on polygon");
   synth.play();
-  
 };
 triangle.onmouseenter = function(){
 
   console.log("you hover on triangle");
   dog.play();
-  
 };
 hex.onmouseenter = function(){
 
   console.log("you hover on hexagon??");
   rooster.play();
-  
 };
 
 
